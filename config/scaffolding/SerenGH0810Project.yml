@@ -44,6 +44,24 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.1032
+- serviceName: project.serengh0810.integrations:en
+  packages:
+  - name: SerenGH0810Project
+    version: "1.0"
+  - name: DivisionPackage
+    version: "5.0"
+  - name: AddPublicService
+    version: "6.0"
+  - name: MultiplyPublicService
+    version: "6.0"
+- serviceName: pub.security:encrypt
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1032
+- serviceName: pub.security:decrypt
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1032
 - serviceName: project.serengh0810.integrations:githubfs
   packages:
   - name: SerenGH0810Project
